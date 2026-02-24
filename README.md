@@ -29,7 +29,6 @@ trello-clone/
 │   ├── App.jsx              # Routes & Context wrapper
 │   └── main.jsx             # Entry point
 ├── tailwind.config.js       # Styling configuration
-└── .env                     # Environment variables (Local only)
 ```
 
 ---
@@ -91,10 +90,6 @@ git push -u origin main
 1. Go to [Vercel.com](https://vercel.com) and log in with your GitHub account.
 2. Click **"Add New"** > **"Project"**.
 3. Import your `trello-clone` repository.
-
-### Environment Variables
-
-If you stored your Firebase API keys in a `.env` file, ensure you copy those key-value pairs into the **Environment Variables** section in the Vercel dashboard during the import process.
 
 ### Deploy
 
